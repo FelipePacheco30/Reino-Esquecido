@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+    <title>Reino Esquecido</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="caverna de fundo">
+            <p>
+                Você acorda em uma fria e escura caverna sem nenhum resquício de memória, e possui um ferrão quebrado ao seu lado, não há nada em sua mente, porém, entende que precisa seguir um caminho. <br>
+                 A sua esquerda, há um morro descente que leva a um penhasco, que emite sons melancólicos e uivantes. <br>
+                 A direita, há um caminho extenso, silencioso, e escuro, como um túnel, com uma luz em seu final.
+            </p>
+            <button class="btn-proximo" data-proximo="1">Seguir os Uivos</button>
+            <button class="btn-proximo" data-proximo="2">Seguir a Escuridão</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="img/mawlek_arena.png" alt="">
+            <p>
+               Você segue em rumo aos uivos, o ambiente parece agressivo, você ouve diversos sons, grunhidos, e movimentos na escuridão, porém não recua.<br> até que sente pedras caindo ao seu redor e um leve tremor, sem perceber você adentrou uma área espinhosa porem quieta e aparentemente abandonada.
+            </p>
+            <button class="btn-proximo" data-proximo="3">Dar meia-volta</button>
+            <button class="btn-proximo" data-proximo="4">Continuar adentrando a área</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="img/dirtmouth.png" alt="">
+            <p>Você continua na vazia e silenciosa escuridão, na esperança de chegar a um destino, ate que, lentamente, o ambiente vai se abrindo e clareando, revelando uma estrada, que leva a uma cidade distante e luminosa, onde ao lado de um banco você avista uma figura simpática</p>
+            <button class="btn-proximo" data-proximo="5">Se aproximar e conversar com a figura</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="img/Greenpath.png" alt="">
+            <p>Você retorna em seu caminho, receoso do que lhe aguardava pela frente, porém, sem perceber, você nao seguiu o caminho que fez e acaba em uma área completamente diferente, você se depara com bosques cheios de vida, onde uma diferente aventura o aguarda. <strong><br> FIM DE JOGO.</strong></p>
+            <button class="btn-proximo" data-proximo="0">Reiniciar Jornada</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="img/Mawlek.png" alt="">
+            <p>Ao adentrar a área, você escuta grunhidos e uma espécie de choro, sem respostas, cada vez mais alto, até que entende de onde caem as pedras, ao olhar para cima e se deparar com uma enorme e grotesca criatura, que aparenta estar sedenta e fora de controle, que acaba o devorando. <strong><br> FIM DE JOGO.</strong></p>
+            <button class="btn-proximo" data-proximo="0">Reiniciar Jornada</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <img src="img/elderbug.png" alt="">
+            <p>Ao se aproximar da simpática figura, você percebe um certo sentimento de surpresa acompanhado de uma melancolia, a figura acena e lhe da as boas-vindas a Dirthmouth, a cidade desvanecente. <br>"Olá viajante, o que o traz a estas terras desoladas, tesouros? Desafios? ou Aventuras fascinantes? hohoho, não importa, muitos aventureiros já passaram por esta cidade em busca de desbravar o reino esquecido nas profundezas, Hallownest. Eu apenas observo, estou velho e temo oque há embaixo deste chão, você nao é o primeiro nem o último, então não irei impedi-lo porem lhe aviso que abaixo habitam perigos inimagináveis." <br>
+                Mesmo após ouvir os conselhos da velha figura, você ainda sente um chamado...uma vontade incessante de ceder as profundezas e desbravar o reino perdido.
+            </p>
+            <button class="btn-proximo" data-proximo="6">...</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <img src="img/Temple_Of_The_Black_Egg.png" alt="">
+            <p>Seu destino já está traçado... <strong><br> FIM DE JOGO.</strong>
+            </p>
+            <button class="btn-proximo" data-proximo="0">Reiniciar Jornada</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
